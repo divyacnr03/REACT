@@ -15,7 +15,6 @@ function Timer(props) {
         } ,1000)
     }
 
-    onStartTimerClick()
     return (
         <div>
             <div> Timer </div>

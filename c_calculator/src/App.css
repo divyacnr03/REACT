@@ -1,0 +1,30 @@
+
+
+.calculator{
+  margin: 0 auto;
+  margin-top: 40px;
+  width:256px;
+  text-align: center;
+  background-color: #bbb;
+
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+  background-color: #bbb;
+  
+}
+.button{
+  font-size: 50px;
+}
+
+input{
+  height: 60px;
+  width:248px;
+  background-color: #bbb;
+  font-size: 40px;
+  
+}
+
