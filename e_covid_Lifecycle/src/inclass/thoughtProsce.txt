@@ -1,0 +1,31 @@
+
+
+
+Eliminate the fetch Countries button
+
+// Onload of the initails 
+// Invoke api 
+        // Should this api call be invoke verytime the component loads
+        // Ans : No
+// populate the dropdown
+
+
+
+
+Eliminate Go Button - It retrives the selectedCountry state Vaible and using that it 
+
+invokes second api to get the covid details
+
+
+// Initial rendering -  selectedCountry is not available 
+// When all should this be called - Everytime user changes the dropdown selection or in other words whenevr selectedCountry is updated
+
+
+
+
+selectedCountry
+
+// Who is owner - Countries commponent is the owner
+// Which can update it - Countries
+// Which all component needs to access this varible - Countries, CovidTable
+// Whill CovidTbale update seletedCountry - no
