@@ -15,7 +15,7 @@ const ItemsList = () => {
                 vatsalTask.map( task => (
                     <li className={'item'}> 
                      <input type="checkbox"/>
-                    {task.taskname}</li>
+                    {task}</li>
                 ))
             }
         </ul>

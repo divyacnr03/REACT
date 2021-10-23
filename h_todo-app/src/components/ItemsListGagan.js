@@ -12,7 +12,7 @@ const ItemsList = () => {
                 gaganTask.map( task => (
                     <li className={'item'}> 
                     <input type="checkbox"/>
-                    {task.taskname}
+                    {task}
                     </li>
                 ))
             }

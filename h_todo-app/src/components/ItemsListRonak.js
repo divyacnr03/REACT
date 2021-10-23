@@ -14,7 +14,7 @@ const ItemsList = () => {
                 ronakTask.map( task => (
                     <li className={'item'}>                    
                     <input type="checkbox"/>
-                    {task.taskname}
+                    {task}
                     </li>
                 ))
             }
