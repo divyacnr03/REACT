@@ -13,7 +13,7 @@ const ItemsList = () => {
             {
                 vinayTask.map(task => (
                     <li className={'item'}><input type="checkbox"/>
-                    {task}</li>
+                    {task.taskname}</li>
                 ))
             }
         </ul>
