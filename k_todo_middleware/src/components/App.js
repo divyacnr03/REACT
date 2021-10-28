@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import './App.css'
+import { additems  } from '../actions/todoList';
 
 const App = () => {
 
@@ -12,14 +13,12 @@ const App = () => {
  
     function handleAssignTask(e){
            // c) updating redux
-        dispatch({
-            type: "ADD_ITEMS",
-            text: {name:e.target.name, task:task}
-        })
+        dispatch(additems({name:e.target.name, task:task}))
     }
 
 
     function handleTaskChange(e){
+        // console.log("editied")
         setTask(e.target.value);
     }
 

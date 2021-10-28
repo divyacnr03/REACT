@@ -1,4 +1,5 @@
-import { createStore } from 'redux';
+import { createStore , applyMiddleware, compose} from 'redux';
+import logger from 'redux-logger'
 
 // 1) Create store
 
@@ -14,6 +15,7 @@ const defaultTaskList = {
 
 function reducer(state , action) {
 
+    console.log("In my reducer", action)
     let newState = Object.assign({}, state || defaultTaskList)
 
     if(action && action.text){
@@ -35,7 +37,26 @@ function reducer(state , action) {
 
 }
 
-var store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// function logger({getState}){
+//     return next => action => {
+//         console.log("Inside my middleware 1",action)
+//         action.text.newValue = 'adding from middleware'
+//         console.log("Get state", getState())
+//         return next(action)
+//     } 
+// }
+
+
+// function logger2({getState}){
+//     return next => action => {
+//         console.log("Inside my middleware 2",action)
+//         console.log("Get state", getState())
+
+//         return next(action)
+//     } 
+// }
+
+var store = createStore(reducer, compose(applyMiddleware(logger)));
 
 
 
