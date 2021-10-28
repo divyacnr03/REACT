@@ -1,0 +1,70 @@
+
+
+.calculator{
+  margin: 0 auto;
+  margin-top: 40px;
+  width:256px;
+  text-align: center;
+  background-color: #bbb;
+
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+  background-color: #bbb;
+  
+}
+button{
+  font-size: 20px;
+  margin: 10px;
+  background: cadetblue;
+  border-radius: 5px;
+}
+
+.task-input{
+  height: 30px;
+  width:248px;
+  background-color: #bbb;
+  font-size: 25px;
+  
+}
+
+/* .task-card {
+  width: 25%;
+} */
+
+.first {
+  float: left;
+  width: 23%;
+  height: 30%;
+  margin: 10px;
+  background: darkkhaki;
+  border-radius: 5px;
+}
+
+.container
+{
+    height: 100%; 
+    min-height: 100%;
+}
+
+.employee{
+  text-align: center;
+  font-size: 25px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  width: 100%;
+}
+
+.item-list .item {
+
+  background: 1px solid #eee;
+
+}
