@@ -1,0 +1,884 @@
+[
+    {
+        "state": "Alabama",
+        "code": "AL",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            }
+        ]
+    },
+    {
+        "state": "Alaska",
+        "code": "AK",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Arizona",
+        "code": "AZ",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Arkansas",
+        "code": "AR",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "California",
+        "code": "CA",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Colorado",
+        "code": "CO",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Connecticut",
+        "code": "CT",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            }
+        ]
+    },
+    {
+        "state": "Delaware",
+        "code": "DE",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "District of Columbia",
+        "code": "DC",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Florida",
+        "code": "FL",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Georgia",
+        "code": "GA",
+        "taxes": [
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Hawaii",
+        "code": "HI",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            }
+        ]
+    },
+    {
+        "state": "Idaho",
+        "code": "ID",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "2.4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Illinois",
+        "code": "IL",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "1.4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Indiana",
+        "code": "IN",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "1.3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Iowa",
+        "code": "IA",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "1.4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Kansas",
+        "code": "KS",
+        "taxes": [
+            {
+                "firetax": "1.5"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Kentucky",
+        "code": "KY",
+        "taxes": [
+            {
+                "firetax": "1.3"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Louisiana",
+        "code": "LA",
+        "taxes": [
+            {
+                "firetax": "1.3"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Maine",
+        "code": "ME",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3.2"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Maryland",
+        "code": "MD",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "1.4"
+            }
+        ]
+    },
+    {
+        "state": "Massachusetts",
+        "code": "MA",
+        "taxes": [
+            {
+                "firetax": "3"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Michigan",
+        "code": "MI",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Minnesota",
+        "code": "MN",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Mississippi",
+        "code": "MS",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Missouri",
+        "code": "MO",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Montana",
+        "code": "MT",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Nebraska",
+        "code": "NE",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Nevada",
+        "code": "NV",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "New Hampshire",
+        "code": "NH",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "New Jersey",
+        "code": "NJ",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "New Mexico",
+        "code": "NM",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "New York",
+        "code": "NY",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "North Carolina",
+        "code": "NC",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "North Dakota",
+        "code": "ND",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Ohio",
+        "code": "OH",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Oklahoma",
+        "code": "OK",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Oregon",
+        "code": "OR",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Pennsylvania",
+        "code": "PA",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Rhode Island",
+        "code": "RI",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "South Carolina",
+        "code": "SC",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "South Dakota",
+        "code": "SD",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Tennessee",
+        "code": "TN",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Texas",
+        "code": "TX",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Utah",
+        "code": "UT",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Vermont",
+        "code": "VT",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Virginia",
+        "code": "VA",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Washington",
+        "code": "WA",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "West Virginia",
+        "code": "WV",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Wisconsin",
+        "code": "WI",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    },
+    {
+        "state": "Wyoming",
+        "code": "WY",
+        "taxes": [
+            {
+                "firetax": "2"
+            },
+            {
+                "statetax": "3"
+            },
+            {
+                "roadtax": "4"
+            },
+            {
+                "fillingCharges": "2"
+            }
+        ]
+    }
+]
