@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './index.css';
 
+const sampleProps = "something"
 
 
 ReactDOM.render(
@@ -17,11 +18,13 @@ ReactDOM.render(
                     <Router>
             <div >
                 <Switch>
-                    
+                    <Route path='/app2/app3' component={(props) => <App4 sampleProps={sampleProps}/>} />
                     <Route path='/app2' component={App2} /> 
                     <Route path='/app3' component={App3} /> 
                     <Route path='/app4' component={App4} /> 
                     <Route path='/' component={App} /> 
+
+                    
 
                 </Switch>
             </div>
