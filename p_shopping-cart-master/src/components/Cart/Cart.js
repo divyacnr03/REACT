@@ -2,13 +2,12 @@ import React from 'react';
 import CartItem from './CartItem';
 import './Cart.css';
 
-const Cart = ({ items, total, currency }) => {
+const Cart = () => {
 
-    // this is a demo code, to show how the data should look like
-    // WIll be removed once the implemnetation is done
-    // DONT DO THIS, because we are mutating here
-    if(!items){
-        items = [
+    // TODO : GEt this data from redux 
+
+ 
+       const items = [
             {
                 id: 1,
                 name: 'Ohrensessel Josslyn',
@@ -25,7 +24,7 @@ const Cart = ({ items, total, currency }) => {
               },
 
         ]
-    }
+
 
     return (
         <div>
@@ -41,7 +40,8 @@ const Cart = ({ items, total, currency }) => {
                                 ))}
                             </div>
                         )}
-                        <div className="cart__total">Total: {total} {currency}</div>
+                        <div className="cart__total">Total: TBD </div> 
+                         {/* TODO to be calculated */}
                     </div>
                 </div>
             </div>

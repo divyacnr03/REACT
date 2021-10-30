@@ -1,8 +1,9 @@
 import React from 'react';
 import Product from '../Product/Product';
 import './ProductList.css';
+import products from '../../data/products'; // TODO this data should come from redux
 
-const ProductList = ({ products  }) => {
+const ProductList = () => {
     return (
         <div>
             <h3>Products</h3>

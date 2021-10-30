@@ -16,12 +16,12 @@ ReactDOM.render(
         <div className='center'>
                     <Router>
             <div >
-                <h1>Home Page</h1>
                 <Switch>
-                    <Route path='/' component={App} /> 
+                    
                     <Route path='/app2' component={App2} /> 
                     <Route path='/app3' component={App3} /> 
                     <Route path='/app4' component={App4} /> 
+                    <Route path='/' component={App} /> 
 
                 </Switch>
             </div>
