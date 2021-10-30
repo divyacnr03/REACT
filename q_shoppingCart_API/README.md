@@ -1,6 +1,7 @@
 To run the application :
-1) npm install
-2) npm start
+1) cd q_shoppingCart_API
+2) npm install
+3) npm start
 
  If you get port 8080 already in use error, then just Cntrl + C and start it again by running npm start
 
