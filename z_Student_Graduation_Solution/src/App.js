@@ -35,7 +35,7 @@ console.log(value)
 
   return (
     <div className="App">
-      Title
+      
       <Students studentsName={studentsName} studentsSubject={studentsSubject} updateComponentValue={updateComponentValue} />
 
       { showComponent !== false ? 

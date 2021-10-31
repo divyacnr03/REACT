@@ -1,7 +1,7 @@
 import { createStore } from 'redux';
 
 const defaultState = {
-    studentName: ["Vinay", "Sweta"],
+    studentName: ["Vinay", "Sweta", "Vatsal", "Gagan"],
     subjects : ['javascript', 'java', 'react', 'redux','nodejs'],
     graduation : []
 }
