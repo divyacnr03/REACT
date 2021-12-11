@@ -22,6 +22,7 @@ router.post('/cart/remove/:productId', function(req, res, next) {
 
 
 router.get('/products', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
   res.json({products : getProductDetails()})
   
 });
