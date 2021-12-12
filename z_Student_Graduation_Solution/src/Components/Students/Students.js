@@ -1,13 +1,10 @@
 import React, {useState} from 'react';
 import Student from './Student';
-import { useSelector } from 'react-redux';
-import './Students.css'
 
 function Students(){
 
-    const { studentName } = useSelector(state => state)
-    const { subjects } = useSelector(state => state)
-
+    const studentName = ['test', 'test'];
+    const subjects = ['sub1', 'sub2'];
 
     return(
         <div className="row">

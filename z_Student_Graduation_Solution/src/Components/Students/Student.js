@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './Students.css'
+import React from 'react';
 
 function Student({student, studentSubjects}){
 
