@@ -3,8 +3,8 @@ import Student from './Student';
 
 function Students(){
 
-    const studentName = ['test', 'test'];
-    const subjects = ['sub1', 'sub2'];
+    const studentName = ['Sweta', 'Vatsal','Ronak', "Vinay"];
+    const subjects = ['Javascript', 'HTML', 'NodeJs', 'Mongo'];
 
     return(
         <div className="row">

@@ -1,8 +1,9 @@
 import React from 'react';
+import { useSelector} from "react-redux";
 
 function Graduation(){
 
-    const graduateStudents =['abc', 'xyz'];
+    const { graduateStudents  } = useSelector (state => state)
 
     return(
         graduateStudents.map((elm,i) => {

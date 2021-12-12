@@ -1,6 +1,34 @@
 import React from 'react';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux'
 
 function Student({student, studentSubjects}){
+
+    const [ totalAttd, setTotalAttd ]  = useState(0);
+    const dispatch = useDispatch();
+
+    function updateGradulatioList(type){
+        dispatch({ type : type , data: student})
+    }
+
+    function incrementAttd(){
+
+        if(totalAttd === 4) {
+            updateGradulatioList("ADD_TO_GRADUATION")
+        }
+        setTotalAttd(totalAttd + 1);
+    
+    }
+
+    function decrementAttd(){
+        if(totalAttd === 5) {
+            updateGradulatioList("REMOVE_FROM_GRADUATION")
+        }
+        if( totalAttd > 0 ) {
+            setTotalAttd(totalAttd - 1);
+        }
+        
+    }
 
     return(
         <React.Fragment>
@@ -16,13 +44,13 @@ function Student({student, studentSubjects}){
                                                         {elm}
                                                     </div>
                                                     <div className="col s3">
-                                                        <a  className="btn-floating btn-small waves-effect waves-light red"><i className="material-icons">add</i></a>
+                                                        <a  onClick={ incrementAttd } className="btn-floating btn-small waves-effect waves-light red"><i className="material-icons">add</i></a>
                                                     </div>
                                                     <div className="col s2">
                                                         {/* <span>{currentAttn(elm)}</span> */}
                                                     </div>
                                                     <div className="col s3">
-                                                        <a  className="btn-floating btn-small waves-effect waves-light red"><i className="material-icons">remove</i></a>
+                                                        <a  onClick={decrementAttd} className="btn-floating btn-small waves-effect waves-light red"><i className="material-icons">remove</i></a>
                                                     </div>
                                                 </div>
                                     )})
@@ -35,7 +63,7 @@ function Student({student, studentSubjects}){
                                                     Total
                                                 </div>
                                                 <div className="col s3">
-                                                    {/* {att_total} */}
+                                                    {totalAttd}
                                                 </div>
                                             </div>
                                         <hr/>
